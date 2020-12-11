@@ -13,5 +13,5 @@ FreeCodeCamp project. Simple calculator*
 
 ## Technologies used
 
-HTML5, CSS3, ReactJS, mathjs
+HTML5, CSS3, ReactJS hooks, mathjs
 
