@@ -1,0 +1,105 @@
+@mixin box-shadow($x, $y, $blur, $spread-radius, $color, $inset:null){
+  -webkit-box-shadow: $x $y $blur $spread-radius $color $inset;
+  -moz-box-shadow: $x $y $blur $spread-radius $color $inset;
+  -ms-box-shadow: $x $y $blur $spread-radius $color $inset;
+  -o-box-shadow: $x $y $blur $spread-radius $color $inset;
+  box-shadow: $x $y $blur $spread-radius $color $inset;
+}
+
+$grid-tab : clear clearEntry clearOne parenthesisLeft parenthesisRight divide multiply add subtract equals decimal zero one two three four five six seven eight nine;
+
+@each $button in $grid-tab{
+  ##{$button} {
+    grid-area:$button;
+    border-radius:5px;
+    @include box-shadow(1px, 1px, 1px, 0px, gray);
+  }
+  
+  ##{$button}:hover {
+    opacity:0.7;
+    font-weight:bold;
+    @include box-shadow(1px, 1px, 1px, 1px, black);
+  }
+}
+
+$number-tab : zero one two three four five six seven eight nine decimal;
+
+@each $number in $number-tab{
+  ##{$number}{
+    background-color:black;
+    color:white;
+  }
+}
+
+body{
+  box-sizing:border-box;
+}
+
+#full-page{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+  button{
+    font-family:"Oxanium";
+  }
+}
+
+#calculator{
+  width:25%;
+  height:60%;
+  min-width:200px;
+  min-height:300px;
+  margin:auto;
+  display:grid;
+  grid-template-areas: "expression expression expression expression" 
+                       "clear clear clearEntry clearOne"
+                       "parenthesisLeft parenthesisRight divide multiply"
+                       "one two three subtract"
+                       "four five six add"
+                       "seven eight nine equals"
+                       "zero zero decimal equals";
+  grid-row-gap:0.5em;
+  grid-column-gap:0.5em;
+  border:7px solid black;
+  padding:1em;
+  border-radius:10px;
+  background-color:#EEEEEE;
+  @include box-shadow(4px, 4px, 5px, 4px, gray);
+}
+
+#expression{
+  font-family:"Oxanium";
+  grid-area:expression;
+  display:grid;
+  grid-template-rows:20px 50px;
+  grid-row-gap:0.5em;
+  text-align:right;
+  width:100%;
+  padding:0.5em 0.5em 0.5em 0em;  
+
+  >div:last-child{
+    border:1px solid black;
+    font-size:1.5em;
+    padding:0.3em;
+    border-radius:5px;
+    border:5px solid #484C55;
+    background-color:#AAAFB5;
+  }
+}
+
+#display{
+  font-size:0.8em;
+  padding-right:0.3em;
+}
+
+.clears{
+  background-color:#981C38;
+  color:white;
+}
+
+.operators{
+  background-color:#07557C;
+  color:white;
+}

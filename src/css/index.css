@@ -1,0 +1,545 @@
+#clear {
+  grid-area: clear;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#clear:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#clearEntry {
+  grid-area: clearEntry;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#clearEntry:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#clearOne {
+  grid-area: clearOne;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#clearOne:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#parenthesisLeft {
+  grid-area: parenthesisLeft;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#parenthesisLeft:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#parenthesisRight {
+  grid-area: parenthesisRight;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#parenthesisRight:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#divide {
+  grid-area: divide;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#divide:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#multiply {
+  grid-area: multiply;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#multiply:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#add {
+  grid-area: add;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#add:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#subtract {
+  grid-area: subtract;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#subtract:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#equals {
+  grid-area: equals;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#equals:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#decimal {
+  grid-area: decimal;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#decimal:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#zero {
+  grid-area: zero;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#zero:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#one {
+  grid-area: one;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#one:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#two {
+  grid-area: two;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#two:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#three {
+  grid-area: three;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#three:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#four {
+  grid-area: four;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#four:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#five {
+  grid-area: five;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#five:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#six {
+  grid-area: six;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#six:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#seven {
+  grid-area: seven;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#seven:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#eight {
+  grid-area: eight;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#eight:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#nine {
+  grid-area: nine;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+  -moz-box-shadow: 1px 1px 1px 0px gray;
+  -ms-box-shadow: 1px 1px 1px 0px gray;
+  -o-box-shadow: 1px 1px 1px 0px gray;
+  box-shadow: 1px 1px 1px 0px gray;
+}
+
+#nine:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px 1px black;
+  -ms-box-shadow: 1px 1px 1px 1px black;
+  -o-box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+#zero {
+  background-color: black;
+  color: white;
+}
+
+#one {
+  background-color: black;
+  color: white;
+}
+
+#two {
+  background-color: black;
+  color: white;
+}
+
+#three {
+  background-color: black;
+  color: white;
+}
+
+#four {
+  background-color: black;
+  color: white;
+}
+
+#five {
+  background-color: black;
+  color: white;
+}
+
+#six {
+  background-color: black;
+  color: white;
+}
+
+#seven {
+  background-color: black;
+  color: white;
+}
+
+#eight {
+  background-color: black;
+  color: white;
+}
+
+#nine {
+  background-color: black;
+  color: white;
+}
+
+#decimal {
+  background-color: black;
+  color: white;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#full-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#full-page button {
+  font-family: "Oxanium";
+}
+
+#calculator {
+  width: 25%;
+  height: 60%;
+  min-width: 200px;
+  min-height: 300px;
+  margin: auto;
+  display: grid;
+  grid-template-areas: "expression expression expression expression" "clear clear clearEntry clearOne" "parenthesisLeft parenthesisRight divide multiply" "one two three subtract" "four five six add" "seven eight nine equals" "zero zero decimal equals";
+  grid-row-gap: 0.5em;
+  grid-column-gap: 0.5em;
+  border: 7px solid black;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  -webkit-box-shadow: 4px 4px 5px 4px gray;
+  -moz-box-shadow: 4px 4px 5px 4px gray;
+  -ms-box-shadow: 4px 4px 5px 4px gray;
+  -o-box-shadow: 4px 4px 5px 4px gray;
+  box-shadow: 4px 4px 5px 4px gray;
+}
+
+#expression {
+  font-family: "Oxanium";
+  grid-area: expression;
+  display: grid;
+  grid-template-rows: 20px 50px;
+  grid-row-gap: 0.5em;
+  text-align: right;
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 0em;
+}
+#expression > div:last-child {
+  border: 1px solid black;
+  font-size: 1.5em;
+  padding: 0.3em;
+  border-radius: 5px;
+  border: 5px solid #484C55;
+  background-color: #AAAFB5;
+}
+
+#display {
+  font-size: 0.8em;
+  padding-right: 0.3em;
+}
+
+.clears {
+  background-color: #981C38;
+  color: white;
+}
+
+.operators {
+  background-color: #07557C;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
