@@ -13,7 +13,6 @@ const numbersArray = [{nb: "0", nbStr:"zero"}, {nb: "1", nbStr:"one"} ,{nb: "2",
 const operatorsArray = [{opSign:"/", opName:"divide"}, {opSign:"*", opName:"multiply"}, {opSign:"+", opName:"add"}, {opSign:"-", opName:"subtract"}];
 
 const Calculator = () => {
-  const [currentOp, setCurrentOp] = useState("");
   const [expression, setExpression] = useState("0");
   const [result, setResult] = useState("");
   const [currentNumber, setCurrentNumber] = useState("");
