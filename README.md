@@ -2,7 +2,7 @@
 
 ## Descriptor
 
-FreeCodeCamp project. Simple calculator*
+FreeCodeCamp project. Simple calculator.
 
 ## Features
 
